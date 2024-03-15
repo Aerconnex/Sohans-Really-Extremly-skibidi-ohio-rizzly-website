@@ -1,0 +1,113 @@
+/* Add your custom CSS code here */
+
+/* Navbar */
+.navbar-inverse {
+    background-color: #333;
+    border-color: #333;
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    background-color: #222;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+/* Page Header */
+.page-header {
+    margin-top: 40px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Main Content */
+.travel_maindiv {
+    margin-bottom: 40px;
+}
+.travel_maindiv img {
+    max-width: 100%;
+    height: auto;
+}
+.travel_maindiv h4 {
+    margin-top: 20px;
+}
+.travel_maindiv hr {
+    border-top: 2px solid #333;
+    width: 50%;
+}
+.travel_maindiv p {
+    margin-top: 20px;
+}
+
+/* Section Headers */
+.movie_head {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: #337ab7;
+}
+.movie_head:hover {
+    background-color: #286090;
+}
+.movie_text {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    text-align: center;
+}
+.contact_1 a {
+    margin-top: 10px;
+    display: block;
+    color: #333;
+}
+.contact_1 a:hover {
+    color: #337ab7;
+}
+
+/* Environment List Items */
+.environment_li {
+    margin-bottom: 20px;
+}
+.environment_li img {
+    max-width: 100%;
+    height: auto;
+}
+.environment_li h4 {
+    margin-top: 20px;
+}
+.environment_li p {
+    margin-top: 20px;
+}
+
+/* Skibidi toilet news */
+.environment_li {
+    margin-bottom: 20px;
+}
+.environment_li img {
+    max-width: 100%;
+    height: auto;
+}
+.environment_li h4 {
+    margin-top: 20px;
+}
+.environment_li p {
+    margin-top: 20px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+        color: #fff;
+    }
+}
